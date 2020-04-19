@@ -6,7 +6,7 @@ script: ant build
 addons:
 sonarcloud:
 organization: "daxwagner"
-token: 1f955863a1930617086b69fc7e096198458cc6ca
+token: 2ca2d7aecc27d6e877391421cfa66df997cbc78f
 script:
 -ant build
 -sonar-scanner
